@@ -2,8 +2,8 @@ import os
 import numpy as np
 import random
 import copy
-from market_env import MarketEnv
-from market_model_builder import MarketDeepQLearningModelBuilder
+from env import MarketEnv
+from model_builder import MarketDeepQLearningModelBuilder
 from collections import deque
 from keras.models import Model, load_model
 from keras.optimizers import RMSprop
