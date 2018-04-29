@@ -290,7 +290,7 @@ def exploreFolder(folder):
 if __name__ == "__main__":
     
     files = exploreFolder('./semantic_data/general')
-    files.remove('.DS_Store')
+#     files.remove('.DS_Store')
     s_and_p_delete = ['QRVO', 'FOX', 'WLTW','ORCL','CFG', 'IQV', 'NAVI', 'DXC', 'NWS', 'FTV', 'KHC', 'ALLE', 'APTV', 'DWDP', 'PYPL', 'HPQ', 'WRK', 'HPE', 'CSRA', 'BHF', 'EVHC', 'FOXA', 'COTY', 'GOOG', 'UA', 'SYF', 'BHGE', 'INFO', 'NWSA', 'HLT']
     s_and_p = [x for x in files if x not in s_and_p_delete]
 
