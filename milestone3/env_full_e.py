@@ -50,7 +50,7 @@ class MarketEnv(gym.Env):
                     low = float(low) if low != "" else float(close)
                     close = float(close)
                     volume = float(volume)
-                    trading_price = openPrice
+                    trading_price = (low+high+close)/3
                     
 
                     if lastClose > 0 and close > 0 and lastVolume > 0:
